@@ -1,0 +1,177 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/abous_page"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/cover_horizontal">
+
+
+    <ImageView
+        android:id="@+id/imageView2"
+        android:layout_width="75dp"
+        android:layout_height="50dp"
+        android:src="@drawable/ic_arrow"
+        android:layout_marginTop="10dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@id/imageView1" />
+
+    <ImageView
+        android:id="@+id/pamehID"
+        android:layout_width="115dp"
+        android:layout_height="112dp"
+        android:layout_marginTop="140dp"
+        android:src="@drawable/pamehmodified"
+
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/aronID" />
+
+    <TextView
+        android:id="@+id/pamehname"
+        android:layout_width="280dp"
+        android:layout_height="34dp"
+        android:layout_marginTop="400dp"
+        android:background="@drawable/text_bg"
+        android:backgroundTint="@color/white"
+        android:drawableLeft="@drawable/ic_person"
+        android:paddingLeft="5dp"
+        android:paddingTop="5dp"
+        android:text="Renz Christian Palma"
+        android:textAlignment="center"
+        android:textColor="@color/black"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/title3" />
+
+    <TextView
+        android:id="@+id/sectionPameh"
+        android:layout_width="280dp"
+        android:layout_height="34dp"
+        android:layout_marginTop="440dp"
+        android:background="@drawable/text_bg"
+        android:backgroundTint="@color/white"
+        android:drawableLeft="@drawable/ic_baseline_info_24_black"
+        android:paddingLeft="5dp"
+        android:paddingTop="5dp"
+        android:text="BS Information Technology 4-4"
+        android:textAlignment="center"
+        android:textColor="@color/black"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/title3" />
+
+    <TextView
+        android:id="@+id/emailPameh"
+        android:layout_width="280dp"
+        android:layout_height="34dp"
+        android:layout_marginTop="480dp"
+        android:background="@drawable/text_bg"
+        android:backgroundTint="@color/white"
+        android:drawableLeft="@drawable/ic_baseline_email_24_black"
+        android:paddingLeft="5dp"
+        android:paddingTop="6dp"
+        android:text="renzchristian.palma@cvsu.edu.ph"
+        android:textAlignment="center"
+        android:textColor="@color/black"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/title3" />
+
+    <ImageView
+        android:id="@+id/imageView1"
+        android:layout_width="450dp"
+        android:layout_height="75dp"
+        android:scaleType="centerCrop"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHeight_percent=".27"
+        app:layout_constraintHorizontal_bias="0.512"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/title3"
+        android:layout_width="450dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="60dp"
+        android:paddingTop="15dp"
+
+        android:scaleType="centerCrop"
+        android:text="ABOUT US"
+        android:textAlignment="center"
+        android:textColor="@color/black"
+        android:textSize="25dp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHeight_percent=".27"
+        app:layout_constraintHorizontal_bias="0.512"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageView
+        android:id="@+id/aronID"
+        android:layout_width="115dp"
+        android:layout_height="112dp"
+        android:layout_marginTop="20dp"
+        android:src="@drawable/aronmodified"
+
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/title3" />
+
+    <TextView
+        android:id="@+id/emailAron"
+        android:layout_width="280dp"
+        android:layout_height="34dp"
+        android:layout_marginTop="224dp"
+        android:background="@drawable/text_bg"
+        android:backgroundTint="@color/white"
+        android:drawableLeft="@drawable/ic_baseline_email_24_black"
+        android:paddingLeft="5dp"
+        android:paddingTop="6dp"
+        android:text="aronshun.samosino@cvsu.edu.ph"
+        android:textAlignment="center"
+        android:textColor="@color/black"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/title3" />
+
+    <TextView
+        android:id="@+id/Aronname"
+        android:layout_width="280dp"
+        android:layout_height="34dp"
+        android:layout_marginTop="152dp"
+        android:background="@drawable/text_bg"
+        android:backgroundTint="@color/white"
+        android:drawableLeft="@drawable/ic_person"
+        android:paddingLeft="5dp"
+        android:paddingTop="5dp"
+        android:text="Aronshun Samosino"
+        android:textAlignment="center"
+        android:textColor="@color/black"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/title3" />
+
+    <TextView
+        android:id="@+id/sectionAron"
+        android:layout_width="280dp"
+        android:layout_height="34dp"
+        android:layout_marginTop="188dp"
+        android:background="@drawable/text_bg"
+        android:backgroundTint="@color/white"
+        android:drawableLeft="@drawable/ic_baseline_info_24_black"
+        android:paddingLeft="5dp"
+        android:paddingTop="5dp"
+        android:text="BS Information Technology 4-4"
+        android:textAlignment="center"
+        android:textColor="@color/black"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/title3" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
+

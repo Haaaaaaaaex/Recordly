@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/schedID"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    android:orientation="vertical">
+
+    <include
+        android:id="@+id/include"
+        layout="@layout/actionbar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+
+    <TextView
+        android:id="@+id/SCAN_Title"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="250dp"
+        android:gravity="center"
+        android:text="SCAN QR CODE"
+        android:textColor="@color/black"
+        android:textColorHint="@color/Grey"
+        android:textSize="30sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/scan_value"
+        android:layout_width="330dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/SCAN_Title"
+        android:layout_centerInParent="true"
+        android:layout_marginTop="50dp"
+        android:padding="10dp"
+        android:paddingLeft="5dp"
+        android:textColor="@color/black"
+        android:visibility="invisible" />
+
+
+    <Button
+        android:id="@+id/scan_btn"
+        android:layout_width="300dp"
+        android:layout_height="50dp"
+        android:layout_below="@id/scan_value"
+        android:layout_centerInParent="true"
+        android:layout_marginTop="50dp"
+        android:background="@drawable/ripple_effect"
+        android:text="SCAN"
+        android:textSize="20dp" />
+
+
+</RelativeLayout>

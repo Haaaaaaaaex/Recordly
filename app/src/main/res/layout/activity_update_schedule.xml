@@ -1,0 +1,146 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".UpdateSchedule"
+    android:id="@+id/schedID"
+    android:background="@color/white">
+    <include
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        layout="@layout/actionbar" />
+
+
+
+    <TextView
+        android:id="@+id/Update_sched_title"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="180dp"
+        android:gravity="center"
+        android:text="UPDATE SCHEDULE"
+        android:textColor="@color/black"
+        android:textSize="30sp"
+        android:textStyle="bold" />
+
+
+
+    <EditText
+        android:id="@+id/update_course_subject"
+        android:layout_width="330dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/Update_sched_title"
+        android:layout_centerInParent="true"
+        android:layout_marginTop="16dp"
+        android:background="@drawable/text_bg"
+        android:hint="Enter  subject"
+        android:textColorHint="@color/Grey"
+        android:padding="10dp"
+        android:paddingLeft="5dp"
+        android:textColor="@color/black" />
+
+
+
+    <EditText
+        android:id="@+id/update_section_name"
+        android:layout_width="330dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/update_course_subject"
+        android:layout_centerInParent="true"
+        android:layout_marginTop="16dp"
+        android:textColorHint="@color/Grey"
+        android:textColor="@color/black"
+        android:background="@drawable/text_bg"
+        android:hint="Enter class section"
+        android:padding="10dp"
+        android:paddingLeft="5dp" />
+
+    <TextView
+        android:id="@+id/update_schedule_time"
+        android:layout_width="207dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/Update_sched_title"
+        android:layout_alignLeft="@id/Update_sched_title"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="140dp"
+        android:layout_marginRight="-210dp"
+        android:layout_toLeftOf="@id/update_section_name"
+        android:background="@drawable/text_bg"
+        android:gravity="center"
+        android:padding="10dp"
+        android:textColor="@color/black"
+        android:textSize="25dp" />
+
+    <TextView
+        android:id="@+id/update_schedule_time_end"
+        android:layout_width="207dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/update_schedule_time"
+        android:layout_alignLeft="@id/Update_sched_title"
+        android:layout_centerInParent="true"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginRight="-210dp"
+        android:layout_toLeftOf="@id/update_section_name"
+        android:background="@drawable/text_bg"
+        android:gravity="center"
+        android:padding="10dp"
+        android:textColor="@color/black"
+        android:textSize="25dp" />
+
+    //start time button
+
+    <Button
+        android:id="@+id/update_timeBtn"
+        android:layout_width="100dp"
+        android:layout_height="50dp"
+        android:layout_below="@+id/update_section_name"
+        android:layout_alignRight="@id/Update_sched_title"
+        android:layout_marginTop="20dp"
+        android:layout_marginRight="10dp"
+        android:background="@drawable/ripple_effect"
+        android:text="select time"
+        android:textSize="12dp" />
+
+    //time button end
+
+    <Button
+        android:id="@+id/update_timeBtnEnd"
+        android:layout_width="100dp"
+        android:layout_height="50dp"
+        android:layout_below="@+id/update_timeBtn"
+        android:layout_alignRight="@id/Update_sched_title"
+        android:layout_marginTop="20dp"
+        android:layout_marginRight="10dp"
+        android:background="@drawable/ripple_effect"
+        android:text="select time"
+        android:textSize="12dp" />
+
+    <Button
+        android:id="@+id/update_Btn"
+        android:layout_width="300dp"
+        android:layout_height="50dp"
+        android:layout_below="@id/update_schedule_time_end"
+
+        android:layout_centerInParent="true"
+        android:layout_marginTop="30dp"
+        android:background="@drawable/ripple_effect"
+        android:text="UPDATE"
+        android:textSize="20dp" />
+
+    <Button
+        android:id="@+id/del_update_Btn"
+        android:layout_width="300dp"
+        android:layout_height="50dp"
+        android:layout_below="@id/update_Btn"
+        android:layout_centerInParent="true"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/ripple_effect"
+        android:text="DELETE"
+        android:textColor="@color/Red"
+        android:textSize="20dp" />
+
+
+</RelativeLayout>

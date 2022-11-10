@@ -1,0 +1,224 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/edit_profile_layout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/cover_horizontal"
+    android:orientation="vertical"
+    tools:context=".edit_profile">
+
+
+    <ImageView
+        android:id="@+id/main_logo1"
+        android:layout_width="90dp"
+        android:layout_height="90dp"
+        android:layout_marginTop="10dp"
+        android:src="@drawable/logo_round"
+
+        android:layout_centerHorizontal="true" />
+
+    <TextView
+        android:id="@+id/editprofile"
+
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/main_logo1"
+        android:layout_marginTop="20dp"
+        android:gravity="center"
+        android:text="EDIT PROFILE"
+        android:textColor="@color/black"
+        android:textSize="30sp"
+        android:textStyle="bold" />
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:id="@+id/editfirst_name"
+        android:layout_width="330dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/editprofile"
+        android:layout_centerInParent="true"
+        android:layout_marginTop="10dp"
+        android:hint="@string/first_name"
+
+        android:textColorHint="@color/Grey"
+        app:endIconMode="clear_text"
+        app:endIconTint="@color/Grey"
+
+        app:startIconDrawable="@drawable/ic_baseline_person_24_black"
+        app:startIconTint="@color/black">
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/editfirst_name1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:backgroundTint="@color/white"
+            android:background="@drawable/text_bg"
+            android:paddingLeft="10dp"
+            android:paddingTop="10dp"
+            android:paddingBottom="10dp"
+            android:textColor="@color/black" />
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:id="@+id/editlast_name"
+        android:layout_width="330dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/editfirst_name"
+        android:layout_centerInParent="true"
+        android:layout_marginTop="10dp"
+        android:hint="Last Name"
+        android:textColorHint="@color/Grey"
+        app:endIconMode="clear_text"
+        app:endIconTint="@color/Grey"
+        app:startIconDrawable="@drawable/ic_baseline_person_24_black"
+        app:startIconTint="@color/black">
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/editlast_name1"
+            android:backgroundTint="@color/white"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/text_bg"
+            android:paddingLeft="10dp"
+            android:paddingTop="10dp"
+            android:paddingBottom="10dp"
+            android:textColor="@color/black" />
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:id="@+id/editEmail"
+        android:layout_width="330dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/editlast_name"
+        android:layout_centerInParent="true"
+        android:layout_marginTop="10dp"
+        android:hint="Email address"
+        android:textColorHint="@color/Grey"
+        app:counterTextColor="@color/white"
+        app:endIconMode="clear_text"
+        app:endIconTint="@color/Grey"
+        app:startIconDrawable="@drawable/ic_baseline_phone_android_24_black"
+        app:startIconTint="@color/black">
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/editEmail1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/text_bg"
+            android:backgroundTint="@color/white"
+            android:inputType="textEmailAddress"
+            android:paddingLeft="10dp"
+            android:paddingTop="10dp"
+
+            android:textColor="@color/black" />
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:id="@+id/editaddress"
+        android:layout_width="330dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/editEmail"
+        android:layout_centerInParent="true"
+        android:layout_marginTop="10dp"
+        android:hint="Address"
+        android:textColorHint="@color/Grey"
+        app:endIconMode="clear_text"
+        app:endIconTint="@color/Grey"
+        app:startIconDrawable="@drawable/ic_baseline_home_24_black_1"
+        app:startIconTint="@color/black">
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/editaddress1"
+            android:backgroundTint="@color/white"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/text_bg"
+            android:inputType="textPostalAddress"
+            android:paddingLeft="10dp"
+            android:paddingTop="10dp"
+            android:paddingBottom="10dp"
+            android:textColor="@color/black" />
+    </com.google.android.material.textfield.TextInputLayout>
+
+
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:id="@+id/editaddressCity"
+        android:layout_width="330dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/editaddress"
+        android:layout_centerInParent="true"
+        android:layout_marginTop="10dp"
+        android:hint="City"
+        android:textColorHint="@color/Grey"
+        app:endIconMode="clear_text"
+        app:endIconTint="@color/Grey"
+        app:startIconDrawable="@drawable/ic_baseline_location_on_24_black"
+        app:startIconTint="@color/black">
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/editaddressCity1"
+            android:backgroundTint="@color/white"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/text_bg"
+            android:inputType="textPostalAddress"
+            android:paddingLeft="10dp"
+            android:paddingTop="10dp"
+            android:paddingBottom="10dp"
+            android:textColor="@color/black" />
+    </com.google.android.material.textfield.TextInputLayout>
+
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:id="@+id/editNumber"
+        android:layout_width="330dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/editaddressCity"
+        android:layout_centerInParent="true"
+        android:layout_marginTop="10dp"
+        android:hint="Phone number"
+        android:textColorHint="@color/Grey"
+        app:counterEnabled="true"
+        app:counterMaxLength="11"
+        app:counterTextColor="@color/white"
+        app:endIconMode="clear_text"
+        app:endIconTint="@color/Grey"
+        app:startIconDrawable="@drawable/ic_baseline_phone_android_24_black"
+        app:startIconTint="@color/black">
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/editNumber1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/text_bg"
+            android:backgroundTint="@color/white"
+            android:inputType="number"
+            android:paddingLeft="10dp"
+            android:paddingTop="10dp"
+
+            android:textColor="@color/black" />
+    </com.google.android.material.textfield.TextInputLayout>
+
+
+    <Button
+        android:id="@+id/EditsubmitBtn"
+        android:layout_width="300dp"
+        android:layout_height="50dp"
+        android:layout_below="@id/editNumber"
+
+        android:layout_centerInParent="true"
+        android:background="@drawable/ripple_effect"
+        android:text="SUBMIT"
+        android:textColor="@color/black"
+        android:textSize="20dp" />
+
+
+</RelativeLayout>

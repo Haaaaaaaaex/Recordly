@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">Recordly</string>
+    <string name="open">open</string>
+    <string name="close">close</string>
+    <string name="first_name">First Name</string>
+    <string name="password">Password</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="send_code">SEND CODE</string>
+    <string name="notif_username">recordly.ceit.cvsu@gmail.com</string>
+    <string name="notif_password">wwswqkkorfzhesxu</string>
+
+</resources>

@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+
+        <item
+            android:id="@+id/home_nav"
+            android:icon="@drawable/ic_baseline_home_24"
+            android:title="Home" />
+        <item
+            android:id="@+id/profile_nav"
+            android:icon="@drawable/ic_baseline_person_24_black"
+            android:title="Profile" />
+        <item
+            android:id="@+id/sched_nav"
+            android:icon="@drawable/calendar_icon"
+            android:title="Schedule" />
+
+    </group>
+
+
+    <item android:title="Attendance">
+
+        <menu>
+            <group android:checkableBehavior="single">
+                <item
+                    android:id="@+id/sign_in_nav"
+                    android:icon="@drawable/ic_baseline_qr_code_scanner_24"
+                    android:title="Sign in attendance" />
+                <item
+                    android:id="@+id/history_nav"
+                    android:icon="@drawable/ic_baseline_history_24_black"
+                    android:title="View Records" />
+            </group>
+        </menu>
+
+    </item>
+
+    <item android:title="Account Settings">
+        <menu>
+            <group android:checkableBehavior="single">
+                <item android:id="@+id/changePass_nav"
+                    android:icon="@drawable/ic_baseline_vpn_key_24_blue"
+                    android:title="Change Password"/>
+                <item android:id="@+id/editProfile_nav"
+                    android:icon="@drawable/ic_baseline_edit_24_black"
+                    android:title="Edit Profile"/>
+                <item android:id="@+id/checkQR_nav"
+                    android:icon="@drawable/ic_baseline_qr_code_24"
+                    android:title="View QR Code"/>
+            </group>
+        </menu>
+
+    </item>
+
+
+    <item android:title="Contacts">
+        <menu>
+            <group android:checkableBehavior="single">
+                <item
+                    android:id="@+id/about_us_nav"
+                    android:title="About the Developers"
+                    android:icon="@drawable/ic_baseline_info_24"/>
+            </group>
+        </menu>
+    </item>
+
+    <item android:title="Sign out">
+        <menu>
+            <group android:checkableBehavior="single">
+                <item
+                    android:id="@+id/logout_nav"
+                    android:title="Logout"
+                    android:icon="@drawable/ic_baseline_arrow_back_24"/>
+            </group>
+        </menu>
+    </item>
+
+
+
+</menu>

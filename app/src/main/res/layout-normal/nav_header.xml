@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="200dp"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:background="@drawable/cover"
+    android:gravity="bottom">
+
+    <ImageView
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:src="@drawable/mainlogo_round"
+        android:layout_marginLeft="15dp"/>
+
+    <TextView
+        android:id="@+id/nav_header_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="www.cvsu.edu.ph"
+        android:textSize="20sp"
+        android:layout_marginLeft="15dp"
+        android:textColor="@color/black"
+        android:textStyle="bold"/>
+    <TextView
+        android:id="@+id/nav_header_text2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="©Recordly"
+        android:textSize="20sp"
+        android:layout_marginLeft="15dp"
+        android:textColor="@color/black"
+        android:textStyle="bold"/>
+
+
+
+</LinearLayout>

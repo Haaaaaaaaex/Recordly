@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "98696691480",
+    "firebase_url": "https://recordly-64904-default-rtdb.asia-southeast1.firebasedatabase.app",
+    "project_id": "recordly-64904",
+    "storage_bucket": "recordly-64904.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:98696691480:android:cb418fa91fe0accf43e86d",
+        "android_client_info": {
+          "package_name": "com.example.recordly"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "98696691480-on8gs7kqhljhllfcsmlva4ufo5u5jjrp.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDie8BZIjsoaGzDaSZv8Ss_E9qBLs2XS5I"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "98696691480-on8gs7kqhljhllfcsmlva4ufo5u5jjrp.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
